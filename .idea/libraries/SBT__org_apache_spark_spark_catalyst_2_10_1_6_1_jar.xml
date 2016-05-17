@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.spark:spark-catalyst_2.10:1.6.1:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.apache.spark/spark-catalyst_2.10/spark-catalyst_2.10-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.spark/spark-catalyst_2.10/spark-catalyst_2.10-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

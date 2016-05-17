@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.tachyonproject:tachyon-underfs-local:0.8.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.tachyonproject/tachyon-underfs-local/tachyon-underfs-local-0.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.tachyonproject/tachyon-underfs-local/tachyon-underfs-local-0.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

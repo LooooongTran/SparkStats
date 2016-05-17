@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.esotericsoftware.minlog:minlog:1.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.esotericsoftware.minlog/minlog/minlog-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.esotericsoftware.minlog/minlog/minlog-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

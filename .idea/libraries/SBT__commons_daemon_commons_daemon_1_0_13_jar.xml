@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: commons-daemon:commons-daemon:1.0.13:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/commons-daemon/commons-daemon/commons-daemon-1.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/commons-daemon/commons-daemon/commons-daemon-1.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

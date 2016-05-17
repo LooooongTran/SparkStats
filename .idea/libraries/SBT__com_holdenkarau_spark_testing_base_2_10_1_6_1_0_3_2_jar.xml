@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.holdenkarau:spark-testing-base_2.10:1.6.1_0.3.2:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.holdenkarau/spark-testing-base_2.10/spark-testing-base_2.10-1.6.1_0.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.holdenkarau/spark-testing-base_2.10/spark-testing-base_2.10-1.6.1_0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

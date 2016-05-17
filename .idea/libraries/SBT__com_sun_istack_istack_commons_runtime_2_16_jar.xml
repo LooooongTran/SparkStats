@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.istack:istack-commons-runtime:2.16:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.sun.istack/istack-commons-runtime/istack-commons-runtime-2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.sun.istack/istack-commons-runtime/istack-commons-runtime-2.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

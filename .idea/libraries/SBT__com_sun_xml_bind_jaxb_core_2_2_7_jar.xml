@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.xml.bind:jaxb-core:2.2.7:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.sun.xml.bind/jaxb-core/jaxb-core-2.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.sun.xml.bind/jaxb-core/jaxb-core-2.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

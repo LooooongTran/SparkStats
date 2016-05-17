@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.scalamacros:quasiquotes_2.10:2.0.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.scalamacros/quasiquotes_2.10/quasiquotes_2.10-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.scalamacros/quasiquotes_2.10/quasiquotes_2.10-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

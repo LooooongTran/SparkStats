@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.xml.fastinfoset:FastInfoset:1.2.12:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.sun.xml.fastinfoset/FastInfoset/FastInfoset-1.2.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.sun.xml.fastinfoset/FastInfoset/FastInfoset-1.2.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

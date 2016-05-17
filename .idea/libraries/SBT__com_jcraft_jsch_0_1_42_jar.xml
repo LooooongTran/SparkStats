@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.jcraft:jsch:0.1.42:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.jcraft/jsch/jsch-0.1.42.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.jcraft/jsch/jsch-0.1.42-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
