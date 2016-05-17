@@ -1,4 +1,4 @@
-Ciena ML Coding Test
+Statistics
 -----------------------
 
 Running the app
