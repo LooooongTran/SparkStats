@@ -1,4 +1,6 @@
 
+
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.linalg._
 import org.apache.spark.mllib.stat.{MultivariateStatisticalSummary, Statistics}
@@ -7,11 +9,15 @@ import scala.math._
 import org.apache.spark.rdd._
 
 
+
 object Main {
 
   def main(args: Array[String]): Unit = {
 
     val sc = new SparkContext("local[4]", "ML.Stats Test", new SparkConf())
+    //turn down the amount of output in the console so we can see what's happening
+    val rootLogger = Logger.getRootLogger()
+    rootLogger.setLevel(Level.ERROR)
 
     val observations = sc.textFile("data/data.txt").
       map(x => x.split(" ")).

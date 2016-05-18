@@ -4,8 +4,8 @@ OS_NAME=$(uname)
 
 if [ $OS_NAME == "Darwin" ]; then
 
-    echo '-> Running spark-submit after compile && assembly'
+    echo '-> Running spark-submit after compile && package'
     sbt compile
     sbt package
-    spark-submit --name "cienaML" --class Main --master "local[4]"  target/scala-2.10/CienaML-assembly-1.0.jar
+    spark-submit --name "SparkStats" --class Main --master "local[4]"  target/scala-2.10/sparkstats_2.10-1.0.jar
 fi
