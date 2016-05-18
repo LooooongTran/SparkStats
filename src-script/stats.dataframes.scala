@@ -14,11 +14,11 @@ df.describe().show
 
 //an alternate way to get the means
 println("the average of each column is as follows:")
-rawdata.agg(mean("c1"), mean("c2"), mean("c3"), mean("c4")).show
+df.agg(mean("c0"), mean("c1"), mean("c2"), mean("c3")).show
 
 //an alternate way to get the standard deviations
 println("The standard deviation for each column is as follows:")
-rawdata.agg(stddev_samp("c1"), stddev_samp("c2"), stddev_samp("c3"), stddev_samp("c4")).show
+df.agg(stddev_samp("c0"), stddev_samp("c1"), stddev_samp("c2"), stddev_samp("c3")).show
 
 
 //function to create matrix
@@ -37,4 +37,5 @@ def corrMatrix(data:DataFrame) : Array[Array[String]] = {
 }
 
 //correlation matrix:
+println("This is the correlation matrix:")
 corrMatrix(df).foreach(z => println(z.toList))

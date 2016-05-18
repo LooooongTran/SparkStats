@@ -4,9 +4,13 @@ import org.apache.spark.mllib.stat.{MultivariateStatisticalSummary, Statistics}
 import scala.math._
 import org.apache.spark.rdd._
 
-val observations = sc.textFile("data/data.txt").
-	map(x => x.split(" ")).
-	map(x => x.map(y => y.toDouble)).
+val initialObservations = sc.textFile("data/data.txt").
+  map(x => x.split(" ")).cache
+
+println(s"number of columns: ${initialObservations.take(1)(0).length}")
+println(s"number of entries : ${initialObservations.count}")
+
+val observations = initialObservations.map(x => x.map(y => y.toDouble)).
   map(x => Vectors.dense(x)).
   cache
 
