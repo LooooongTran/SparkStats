@@ -10,14 +10,15 @@ val df = sqlContext.read
 
 
 //this will print out count, mean, stddev, min, max
+println("Here are some statistics about the data using dataframe.describe")
 df.describe().show
 
 //an alternate way to get the means
-println("the average of each column is as follows:")
+println("The mean of each column follows:")
 df.agg(mean("c0"), mean("c1"), mean("c2"), mean("c3")).show
 
 //an alternate way to get the standard deviations
-println("The standard deviation for each column is as follows:")
+println("The Standard Deviation of each column follows:")
 df.agg(stddev_samp("c0"), stddev_samp("c1"), stddev_samp("c2"), stddev_samp("c3")).show
 
 
@@ -37,5 +38,5 @@ def corrMatrix(data:DataFrame) : Array[Array[String]] = {
 }
 
 //correlation matrix:
-println("This is the correlation matrix:")
+println("The correlation matrix of the data follows:")
 corrMatrix(df).foreach(z => println(z.toList))
