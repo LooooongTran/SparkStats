@@ -2,8 +2,8 @@ import org.apache.spark.sql._
 
 val df = sqlContext.read
   .format("com.databricks.spark.csv")
-  .option("header", "false") // Use first line of all files as header
-  .option("inferSchema", "true") // Automatically infer data types
+  .option("header", "false")
+  .option("inferSchema", "true")
   .option("delimiter", " ")
   .load("data/data.txt")
   .cache
